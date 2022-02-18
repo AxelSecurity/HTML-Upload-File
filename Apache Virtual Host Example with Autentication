@@ -1,1 +1,14 @@
+<VirtualHost *:8085>
 
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/upload
+        <Directory "/var/www/upload">
+            AuthType Basic
+            AuthName "Private Documentation Repository"
+            AuthUserFile /var/www/upload/.htpasswd-private
+            Require valid-user
+        </Directory>
+
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
