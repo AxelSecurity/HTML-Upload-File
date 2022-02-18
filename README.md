@@ -1,9 +1,9 @@
 # HTML-Upload-File
-File Upload with Progress Bar HTML CSS &amp; JavaScript
+File Upload with Progress Bar HTML CSS &amp; JavaScript (optional Apache2 Authentication)
 
 ![image](https://user-images.githubusercontent.com/23278182/154736693-3c8cf381-fa5d-4979-8697-04482c7c0cf2.png)
 
-<h1>Virtual Host Configuration for Apache Autentication (optional)</h1>
+<h1>Virtual Host Configuration for Apache Authentication (optional)</h1>
 To add basic authentication to an apache2 virtual host you need to add the following lines to the virtual host configuration.<br>
 
 AuthType Basic                                               (1)<br>
